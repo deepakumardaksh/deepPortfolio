@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: " My Projects";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -550,7 +550,12 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+.box .text{
+    color: orange;
+}
+.box p{
+    color:  white;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -677,14 +682,5 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-    .ancor{
-        text-decoration: none;
-        color: #fff;
-    }
-    .box .text{
-        color: white;
-    }
-    .box p{
-        color: white;
-    }
+  
 }
